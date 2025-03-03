@@ -2,7 +2,14 @@ import React, { useState } from "react";
 import CardComponent from "./CardComponent";
 
 export default function InputComponent() {
-  const [book, setBook] = useState({});
+  const [book, setBook] = useState({
+    // booktitle,
+    // author,
+    // date,
+    // edition,
+    // quantity,
+    // it not work
+  });
   const [books, setBooks] = useState([]);
 
   const handleInputChange = (e) => {
